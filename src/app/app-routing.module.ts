@@ -9,6 +9,14 @@ const routes: Routes = [
     path: '',
     component: UsersComponent
   },
+  {
+    path: 'details/:id',
+    component: DetailsComponent
+  },
+  {
+    path: 'posts',
+    component: PostsComponent
+  },
 ];
 
 @NgModule({
